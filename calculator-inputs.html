@@ -4,18 +4,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <title>Calculate things!</title>
 </head>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 <body>
     <div class="container">
         <h1>Fill in two numbers to add them together...</h1>
 
-        <form action="calculator_results.php" method="get">
+        <form action="calculator-results.php" method="get">
             <div class="form-group">
-                <label for="first_number">First number</label>
-                <input id="first_number" name="first_number" class="form-control" type="number">
+                <label for="weight">Enter weight of package</label>
+                <input id="weight" name="weight" class="form-control" type="number">
             </div>
             <div class="form-group">
-                <label for="second_number">Second number</label>
-                <input id="second_number" name="second_number" class="form-control" type="number">
+                <label for="distance">Enter shipping distance</label>
+                <input id="distance" name="distance" class="form-control" type="number">
             </div>
             <button type="submit" class="btn">Go!</button>
         </form>
