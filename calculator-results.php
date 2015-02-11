@@ -4,7 +4,7 @@
     $shippingCost = (($weight/20) + ($distance/20));
     $groundWeight = ($distance/$weight);
     $randomNumber = rand(-5, 5);
-    $luckyNumber = ($shippingCost*$randomNumber);
+    $luckyNumber = (($shippingCost*$randomNumber) - 10);
 ?>
 <!DOCTYPE html>
 <html>
